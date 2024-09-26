@@ -1,10 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 
+// const nav = [
+//   { name: 'blog', href: 'http://localhost:3000/billing' },
+//   { name: 'pharmacy', href: 'http://localhost:3001/pharmacy' },
+//   { name: 'lab', href: 'http://localhost:3002/lab' },
+// ]
+
 const nav = [
-  { name: 'blog', href: 'http://localhost:3000/billing' },
-  { name: 'pharmacy', href: 'http://localhost:3001/pharmacy' },
-  { name: 'lab', href: 'http://localhost:3002/lab' },
+  { name: 'blog', href: 'https://monorepo-test-blogapp.vercel.app/billing' },
+  { name: 'pharmacy', href: 'https://monorepo-test-docs-cyan.vercel.app/pharmacy' },
+  { name: 'lab', href: 'https://monorepo-test-web-two.vercel.app/lab' },
 ]
 
 const BillingPage = () => {
