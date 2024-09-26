@@ -7,7 +7,7 @@ export default function Home() {
    <div>
       <h1 className={styles.title}>Welcome to docs!</h1>
       <Image src="/nextjs.svg" alt="Next.js Logo" width={200} height={200} />
-      <button>Click me</button> 
+      <button className="bg-indigo-200">Click me</button> 
    </div>
   );
 }

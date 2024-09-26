@@ -1,0 +1,7 @@
+{
+    "name": "@my-turborepo/configs",
+    "version": "1.0.0",
+    "description": "Shared configs for my-turborepo",
+    "private": true
+    
+}
